@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Castoro Titling', cursive;
+}
+
+body{
+    background-color: #4de561;
+}
+
+.su{
+    text-align: center;
+    margin-top: 250px;
+    border: solid 2px black;
+    background-color: gainsboro;
+    width: 500px;
+    margin-left: 750px;
+}
+
+h1{
+    font-size: 40px;
+    color: #4de561;
+}
+
+.form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}   
+
+label{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+input{
+    margin-top: 10px;
+    background-color: transparent;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid #4de561;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    height: 50px;
+}
+
+button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: transparent;
+    box-shadow: 0 0 40px #4de561;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4de561;
+    color: white;
+}
+
+.resul{
+    background-color: transparent;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    padding: 0px 20px;
+    height: 50px;
+}
